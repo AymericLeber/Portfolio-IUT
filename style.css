@@ -1,0 +1,98 @@
+html
+{
+    font-family : Arial, Helvetica, sans-serif;
+    min-height  : 100%;
+    height      : auto;
+}
+
+*
+{
+    margin : 0px;
+}
+
+body
+{
+    background-image : linear-gradient(to bottom left, #ffcbb5 0%, #ace0f9 100%);
+    display          : block;
+    min-height       : 100%;
+}
+
+div
+{
+    padding : 12px;
+    margin  : 12px;
+}
+
+.mainBox
+{
+    display          : block;
+    margin-left      : auto;
+    margin-right     : auto;
+    margin-top       : 2%;
+    margin-bottom    : 2%;
+    box-shadow       : 0px 2px 8px #888888;
+    background-color : rgba(255,255,255,40%);
+    width            : 90%;
+    height           : auto;
+    text-align       : justify;
+    border-radius    : 10px;
+}
+
+.box 
+{
+    display          : block;
+    background-color : #EFEFEF;
+    box-shadow       : 0px 2px 8px #888888;
+    padding          : 12px 20px;
+}
+
+.boxFlex
+{
+    display : flex;
+    width   : auto;
+}
+
+h1
+{
+    padding    : 5px;
+    margin     : 12px;
+    text-align : center;
+    font-size  : x-large;
+    box-shadow : 0px 2px 8px #888888;
+}
+
+h2
+{
+    padding    : 5px;
+    text-align : center;
+    font-size  : x-large;
+}
+
+h3 { font-size : 120%; text-decoration: underline overline;  }
+
+header 
+{ 
+    display          : flex;
+    margin           : 12px;
+    background-color : #7189b8; color : white;
+    box-shadow       : 0px 2px 8px #888888;
+    justify-content  : center;
+}
+
+#h1Ac     { /*border: 3px solid #77a2c5;*/ background-color: #a7d5fa;                 }
+#h1Pr     { /*border: 3px solid #77a2c5;*/ background-color: #3c80a0; color : white }
+#h1C1     { /*border: 3px solid #640404;*/ background-color: #C00000; color : white }
+#h1C2     { /*border: 3px solid #C35E27;*/ background-color: #F79152;                 } 
+#h1C3     { /*border: 3px solid #B78809;*/ background-color: #FFC000;                 } 
+#h1C4     { /*border: 3px solid #5C8729;*/ background-color: #92D050;                 }
+#h1C5     { /*border: 3px solid #002060;*/ background-color: #07348F; color : white }
+#h1C6     { /*border: 3px solid #580D7F;*/ background-color: #7C01BE; color : white }
+
+.desac {color : #808080;}
+
+#PP 
+{
+    border-radius : 50%;
+    margin-right  : 12px;
+    object-fit    : contain;
+}
