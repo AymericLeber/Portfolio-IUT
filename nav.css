@@ -43,7 +43,7 @@ nav:hover .navDesc
 {
     padding     : 12px;
     font-weight : bold;
-    width       : -webkit-fill-available;
+    width       : 100%;
     text-align  : center;
     display     : grid;
 }
